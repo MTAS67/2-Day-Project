@@ -1,6 +1,8 @@
 .head {}
 
-.body {}
+.body {
+    
+}
 
 .hero-container {
     border: red 5px solid;
@@ -13,6 +15,17 @@
     padding-bottom: 250px;
     display:flex; 
     justify-content:center; 
+}
+
+.header-container {
+    border: yellow 5px solid;
+   /* margin:-00px;*/
+    position:fixed; 
+    top:0;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
 }
 
 .background-image {
@@ -34,26 +47,29 @@
 .random-logo-img {
     height:3px; 
     width:5px; 
+    
+}
+
+
+.header-links-container{
 
 }
 
-.header-container {
-    border: yellow 5px solid;
-   /* margin:-00px;*/
-    position:fixed; 
-    top:0;
-    display:flex;
-    align-items: center;
-    justify-content: space-around;
-    width:100%;
-}
-
-.menu-text{
+.header-menu-container {
+    border: 5px purple solid; 
+    width:450px; 
+    display:flex; 
+    justify-content: space-evenly;
+    
+    }
+    
+.header-menu-text{
     font-family: 'Montserrat';
     font-size: 16px;
     font-style: normal;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: black;
+    border: orange 5px solid; 
 }
 
 /*
@@ -61,28 +77,15 @@
     border: green 5px solid; 
 }
 */
-.header-menu {
-border: 5px purple solid; 
-width:450px; 
-display:flex; 
-justify-content: space-evenly;
 
-}
-
-
-.header-menu-text{
-    border: orange 5px solid;
-    font-size:16px; 
-}
-
-.hero-content {
+.hero-content-container {
     border:blue 3px solid; 
     width:40%; 
-    height:230px; 
+    height:218px; 
     display:flex; 
     flex-direction: column; 
     justify-content: center;
-    gap:24px; 
+    gap:24px;  
 }
 
 .h1 {
@@ -92,21 +95,123 @@ justify-content: space-evenly;
     text-align: center;
 }
 
-.button-container {
+.button-container-one {
     border: hotpink 3px solid; 
     display:flex; 
     justify-content: center;
 }
-.button{
-    border: brown 2px solid;
-    font-size: 16px; 
-    width:132px; 
-    height:38px; 
-    display:flex; 
-    justify-content: center;
-    align-items: center;
-    margin:8px; 
-    padding: 8px;
+.button-one{
+    font-size:16px; 
+    padding: 8px 24px;   
 }
 
 /*Hero Container Ends Here*/
+
+/* About Me Section Starts Here */
+
+.about-me-container {
+    border: turquoise 5px solid; 
+    display:flex; 
+    flex-direction: row;
+    width: 60%; 
+    height:250px; 
+    margin-left:auto; 
+    margin-right:auto;
+    display:flex; 
+    
+}
+
+.about-me-image-container{
+    border: maroon 5px solid; 
+    width:50%; 
+
+}
+
+/*
+.about-me-image-img{
+
+}
+*/
+
+.about-me-header {
+    border: red 3px dashed; 
+    height:auto; 
+}
+
+.about-me-header-one{
+    border: yellow 3px dashed; 
+    font-family: "Montserrat";
+    font-size:45px; 
+}
+
+.about-me-header-two {
+    border: pink 3px dashed; 
+    font-size: 20px; 
+}
+
+.about-me-blue-line {
+    border: green 3px dashed; 
+    height: 32px; 
+}
+
+.about-me-text-container{
+    border: orange 3px dashed;
+    width:50%;  
+    padding-left:18px;
+   
+}
+.about-me-description-container{
+    border:purple 3px dashed; 
+}
+
+.button-container-two{
+    border: orange 3px solid;
+    font-size:16px; 
+}
+
+.button-two {
+    font-size:16px; 
+    padding: 8px 24px;   
+}
+
+/* End of About Me Section */
+
+/* Beginning of Let's Talk Section */
+
+.lets-talk-container {
+    border: blue 3px dashed; 
+    height:300px; 
+    display:flex; 
+    flex-direction:row; 
+    justify-content: center;
+    gap:64px; 
+    padding:64px 0px 64px 0px; 
+}
+
+
+.left-side-container {
+    border: maroon 3px dashed; 
+    font-size: 45px;
+    font-family: "Montserrat";
+    display:flex; 
+    flex-direction: column;
+    width:25%; 
+    margin-left:200px;
+     
+}
+/*
+.lets-talk-container-text{
+    border: hotpink 3px dashed; 
+    font-family:"Montserrat";
+    font-size:16px;    
+}
+*/
+.right-side-container {
+    border: green 3px dashed;  
+    font-size: 45px;
+    font-family: "Montserrat";
+    display:flex; 
+    flex-direction: column;
+    width:25%; 
+    margin-right:200px;
+}
