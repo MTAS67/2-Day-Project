@@ -1,0 +1,112 @@
+.head {}
+
+.body {}
+
+.hero-container {
+    border: red 5px solid;
+    height: auto;
+    min-width: 0;
+    width: 100 vw;
+   /* background-image: url("images/background.webp");*/
+    background-position: 50% 100%;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    display:flex; 
+    justify-content:center; 
+}
+
+.background-image {
+    height: 400px;
+    width: 1185px;
+    background-image: url("header-desktop-8f1a8f3b-2880w.webp");
+}
+
+/*Hero Container Starts Here*/
+.header-logo-container {
+    border: hotpink 1px solid; 
+    height: 50px;
+    width: 200px;
+    align-items: center;
+    justify-self: center;
+
+}
+
+.random-logo-img {
+    height:3px; 
+    width:5px; 
+
+}
+
+.header-container {
+    border: yellow 5px solid;
+   /* margin:-00px;*/
+    position:fixed; 
+    top:0;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+}
+
+.menu-text{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/*
+.header-links-container {
+    border: green 5px solid; 
+}
+*/
+.header-menu {
+border: 5px purple solid; 
+width:450px; 
+display:flex; 
+justify-content: space-evenly;
+
+}
+
+
+.header-menu-text{
+    border: orange 5px solid;
+    font-size:16px; 
+}
+
+.hero-content {
+    border:blue 3px solid; 
+    width:40%; 
+    height:230px; 
+    display:flex; 
+    flex-direction: column; 
+    justify-content: center;
+    gap:24px; 
+}
+
+.h1 {
+    border: black 3px solid; 
+    font-size:64px; 
+    display:flex; 
+    text-align: center;
+}
+
+.button-container {
+    border: hotpink 3px solid; 
+    display:flex; 
+    justify-content: center;
+}
+.button{
+    border: brown 2px solid;
+    font-size: 16px; 
+    width:132px; 
+    height:38px; 
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    margin:8px; 
+    padding: 8px;
+}
+
+/*Hero Container Ends Here*/
