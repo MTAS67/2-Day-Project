@@ -1,29 +1,31 @@
 .head {}
 
 .body {
-   
+    
 }
 
 .hero-container {
     border: red 5px solid;
+    color:white; 
     height: auto;
     min-width: 0;
     width: 100 vw;
-   /* background-image: url("images/background.webp");*/
+    background-image: url("images/background.webp"); 
     background-position: 50% 100%;
-    padding-top:100px;
+    padding-top:0px;
     padding-bottom: 200px;
     display:flex; 
     flex-direction:column; 
     justify-content:center; 
     align-items: center;
+  
    
 }
 
 .header-container {
     border: yellow 5px solid;
     margin:0; 
-    position:fixed;
+   /* position:fixed;*/
     top:0;
     display:flex;
     align-items: center;
@@ -64,6 +66,7 @@
     display:flex; 
     justify-content: space-evenly;
     
+    
     }
     
 .header-menu-text{
@@ -71,7 +74,7 @@
     font-size: 16px;
     font-style: normal;
     text-transform: uppercase;
-    color: black;
+    color: white;
     border: orange 5px solid; 
 }
 
@@ -96,8 +99,10 @@
 .h1 {
     border: black 3px solid; 
     font-size:64px; 
+    color:
     display:flex; 
     text-align: center;
+    margin-top:0px; 
 }
 
 .button-container-one {
@@ -105,9 +110,12 @@
     display:flex; 
     justify-content: center;
 }
-.button-one{
+.hero-button{
     font-size:16px; 
+    border: white solid; 
+    color:white; 
     padding: 8px 24px;   
+    background-color: transparent;
 }
 
 /*Hero Container Ends Here*/
@@ -119,7 +127,9 @@
     display:flex; 
     flex-direction: row;
     width: 60%; 
-    height:250px; 
+    height:300px; 
+    margin-top:64px; 
+    margin-bottom:64px; 
     margin-left:auto; 
     margin-right:auto;
     display:flex; 
@@ -132,26 +142,28 @@
 
 }
 
-/*
+
 .about-me-image-img{
+    width:485px;
+    height:290px;
 
 }
-*/
-
 .about-me-header {
     border: red 3px dashed; 
     height:auto; 
 }
 
 .about-me-header-one{
-    border: yellow 3px dashed; 
+    border: yellow 3px dashed;
     font-family: "Montserrat";
     font-size:45px; 
+    color: #223855;
 }
 
 .about-me-header-two {
     border: pink 3px dashed; 
     font-size: 20px; 
+    color:#223855;
 }
 
 .about-me-blue-line {
@@ -163,10 +175,15 @@
     border: orange 3px dashed;
     width:50%;  
     padding-left:18px;
+    font-family:"Montserrat";
+    font-size:20px; 
    
 }
 .about-me-description-container{
     border:purple 3px dashed; 
+    font-family:"Open Sans";
+    font-size: 16px; 
+    color:#587291;
 }
 
 .button-container-two{
@@ -174,7 +191,7 @@
     font-size:16px; 
 }
 
-.button-two {
+.about-me-button {
     font-size:16px; 
     padding: 8px 24px;   
 }
@@ -183,49 +200,56 @@
 
 /* Beginning of Let's Talk Section */
 
-.lets-talk-container {
+.lets-talk-section-main-container {
     border: blue 3px dashed; 
     height:300px; 
     display:flex; 
     flex-direction:row; 
     justify-content: center;
-    gap:64px; 
-    padding:64px 0px 64px 0px; 
+    gap:32px; 
+    padding-top:64px; 
+    padding-bottom:64px; 
+    
 }
 
-
+.lets-talk-section-left-right-container{
+    border: peachpuff 3px dashed; 
+    display:flex; 
+    justify-content: center;
+    gap:32px; 
+    width:1500px; 
+}
 .left-side-container {
     border: maroon 3px dashed; 
     font-size: 45px;
     font-family: "Montserrat";
     display:flex; 
     flex-direction: column;
-    width:25%; 
-    margin-left:200px;
+    width:30%; 
+    margin-left:0px;
+    
      
 }
+
+.lets-talk-section-header-and-text-container{
+    border: green 3px solid; 
+    height:140px; 
+    
+}
+
+.lets-talk-section-heading-container {
+    border: hotpink 3px solid; 
+}
 /*
-.lets-talk-container-text{
+.lets-talk-section-heading-text{
     border: hotpink 3px dashed; 
     font-family:"Montserrat";
     font-size:16px;    
 }
 */
-.right-side-container {
-    border: green 3px dashed;  
-    font-size: 45px;
-    font-family: "Montserrat";
-    display:flex; 
-    flex-direction: column;
-    width:25%; 
-    justify-content: space-between;
-    margin-bottom:32px;    
-}
 
-.right-side-container-information-container {
-    border: blue 3px dashed; 
-    height:auto; 
-}
+
+
 .right-side-container-text-container{
     border: purple 3px dashed; 
     font-size:16px; 
@@ -238,7 +262,26 @@
     align-items: flex-start;
     
 }
-.button-three { 
+.lets-talk-button{ 
     padding: 8px 24px; 
     font-size:16px;   
+}
+
+ .lets-talk-container-text-container{
+     border: turquoise 3px dashed;
+     font-family: "Montserrat"; 
+     font-size:16px; 
+ }
+
+ .right-side-container {
+    border: black 3px solid;  
+    font-size: 45px;
+    font-family: "Montserrat";
+    display:flex; 
+    flex-direction: column;
+    width:25%; 
+    height:32px;
+    justify-content: space-between;
+    margin-bottom:32px;   
+    height:150px;  
 }
