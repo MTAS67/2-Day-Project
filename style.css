@@ -210,11 +210,12 @@
 
 
 .lets-talk-section-left-right-container{
-    border: peachpuff 3px dashed; 
+    border: black 3px dashed; 
     display:flex; 
     justify-content: center;
     gap:32px; 
     width:1500px; 
+    margin-right:32px;
 }
 
 .left-side-container {
@@ -249,7 +250,7 @@
     flex-direction: column;
     align-items: space-between;
     justify-content: space-between;
-    margin-bottom:0px; 
+    height:280px;
 }
 
 /*
@@ -266,7 +267,8 @@
 .button-container-three {
     border: orange 3px dashed; 
     display:flex; 
-    align-items: flex-start;  
+    align-items:flex-end;
+    height:44px;  
     
 }
 .lets-talk-button{ 
@@ -358,5 +360,10 @@
      display:flex; 
      flex-direction:column; 
      justify-content: space-evenly;
+     height:200px; 
  }
  
+ .lets-talk-form-button-container{
+     border:purple 3px solid;
+     height:auto;  
+ }
