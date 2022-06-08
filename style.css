@@ -287,7 +287,7 @@
  }
 
  .services-main-container {
-     border:red 2px solid;
+   /*  border:red 2px solid;*/
      height:250px;  
      width:60%;
      margin-left:330px; 
@@ -302,37 +302,37 @@
  }
 
  .services-main-container-header-container{
-     border:yellow 2px solid;      
+   /*  border:yellow 2px solid;*/      
  }
  .three-images-container {
-     border: green 2px solid; 
-     height:150px; 
-     width:900px;
+   /*  border: green 2px solid; */
+     height:auto; 
+     width:auto;
      display:flex; 
      justify-content: center; 
      gap:16px; 
-     margin-top:48; 
+     margin-top:32px; 
     
  
  }
 
  .lady-and-bridge-image {
-     border: purple 2px solid; 
+     /*border: purple 2px solid;*/
      height:150px; 
  }
 
  .computer-image {
-     border: purple 2px solid; 
+    /* border: purple 2px solid;*/ 
      height: 150px; 
  }
 
  .notebooks-image {
-     border: purple 2px solid; 
+   /*  border: purple 2px solid;*/ 
      height:150px; 
  }
 
  .services-button-container {
-     border: orange 3px solid; 
+  /*   border: orange 3px solid;*/ 
      margin-top:32px; 
      height:64px; 
      padding-top:0px; 
@@ -343,13 +343,13 @@
  .services-button {
     padding: 8px 24px; 
     font-size:16px;  
-    border: black 2px solid; 
+   /* border: black 2px solid; */
     color: black;
     background-color:whitesmoke;      
  }
 
  .lets-talk-label{
-     border:yellow 2px solid; 
+     border:yellow 2px solid;
      font-family:"Open Sans"
      font-size: 16px; 
  }
@@ -367,3 +367,200 @@
      border:purple 3px solid;
      height:auto;  
  }
+
+ /* Testimonial Section*/
+ .testimonials-main-container{
+  /*  border: orange 3px dashed;*/ 
+    background-color: #e9f6ff;
+    height: 300px; 
+    margin-top:-64px;
+    display:flex; 
+    justify-content: center;
+    padding-top:64px; 
+   
+ }
+
+ .header-icon-text-name-container{
+  /*  border: blue 3px dashed;*/
+    height: 300px; 
+    width:900px; 
+    margin-bottom:auto; 
+    display:flex; 
+    
+    justify-content: center;
+ }
+
+ .testimonials-header-container{
+ /* border:hotpink 3px dashed;*/
+  height:48px;
+  width:300px;
+  
+ }
+
+ .testimonials-header-text{
+    font-family:'Montserrat';
+    font-size:45px;
+    text-align: center;
+ }
+
+ .testimonials-icon-container{
+  /*  border: turquoise 3px dashed;*/
+    height:48px; 
+    margin-top:32px; 
+ }
+
+ .testimonials-icon{
+     font-family: 'Montserrat';
+     font-size: 45px;
+     color: rgba(0,190,242,1);
+     text-align: center;
+ }
+
+ .testimonials-text-container{
+  /*  border: maroon 3px dashed;*/ 
+    height:150px;
+    width:300px; 
+    display:flex; 
+    
+   
+   
+ }
+
+ .testimonials-text-container-text{
+   /* border: peachpuff 3px dashed;*/
+    width:600px; 
+    text-align: center;
+    margin-left:-155px; 
+    margin-top:16px; 
+    font-family:'Open Sans';
+    font-size:16px; 
+    
+ }
+
+.testimonials-main-container-name{
+  /*  border: teal 3px dashed;*/
+    height:auto; 
+    width:auto; 
+    text-align:center;
+    margin-top:32px; 
+    font-family:'Montserrat';
+    font-size:16px; 
+}
+
+.container-for-header-icon-text-name{
+   /* border:black 3px solid; */
+    width:600px; 
+    display:flex; 
+    justify-content: center;    
+}
+
+.blog-label-container{
+    border:black 3px solid; 
+    width:auto;
+    margin-top:64px; 
+}
+.blog-label{
+    font-family:'Montserrat';
+    font-size:45px; 
+    text-align: center;
+}
+
+/*This is the end of the blog box*/
+
+/*This is the location for the images, 
+titles, text, and Read Me buttons*/
+
+
+.container-for-blog-images-titles-text-and-read-more-button{
+    border:red 3px solid; 
+    display:flex; 
+    justify-content: center;
+    flex-direction:row;  
+    gap:16px;  
+}
+
+.image-container-for-blog-images-titles-text-and-read-more-button{
+    border:yellow 3px solid;
+    width:325px; 
+    height:auto; 
+}
+
+
+
+.container-man-on-cell-phone{
+    border:hotpink 3px solid; 
+    width:335px; 
+}
+.container-man-on-cell-phone{
+    border:rgb(52, 37, 44) 3px solid; 
+    width:335px; 
+}
+
+.container-man-on-mountain{
+    border:green 3px solid; 
+    width:335px; 
+}
+
+
+.images-blog-container-man-smiling{
+    border:blue 3px solid; 
+    height:150px;
+    width:325px;
+    display:flex; 
+    font-family:'Open Sans';
+    font-size:16px; 
+    color: #747474;
+    display:flex; 
+    flex-direction:column; 
+    justify-content: space-between;
+}
+
+.images-blog-container-man-on-cell-phone {
+    border: blue 3px solid; 
+    height:150px; 
+    width:325px; 
+}
+
+.images-blog-container-man-on-mountain{
+    border:blue 3px solid; 
+    height:150px;
+    width:325px;
+    font-family:'Open Sans';
+    font-size:16px; 
+    color: #747474;
+    display:flex; 
+    flex-direction:column; 
+    justify-content: space-between;
+}
+.title-container-for-blog-images-titles-text-and-read-more-button{
+    border:pink 3px solid; 
+    
+}
+
+.title-text{
+    border:green 3px solid; 
+    margin-bottom:16px; 
+    font-family:'Montserrat';
+    font-size: 16px; 
+    font-weight:bolder; 
+    color: #223855;
+}
+
+.text-container-for-blog-images-title-text-and-read-more-button {
+    border: purple 3px solid; 
+    font-family:'Open Sans';
+    font-size:16px; 
+    color: #747474;
+    display:flex; 
+    flex-direction:column; 
+    justify-content: space-between;
+}
+
+.read-more-button-container-for-blog-images-titles-text-and-read-more-button{
+    border:orange 3px solid; 
+    margin-top:32px; 
+}
+
+.read-more-button {
+    border:maroon 3px solid; 
+}
