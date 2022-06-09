@@ -187,7 +187,7 @@
     padding: 8px 24px; 
     border: #2b4a61 2px solid; 
     color:#2b4a61;
-    background-color: #e9f6ff;
+    background-color: transparent;
 }
 
 /* End of About Me Section */
@@ -276,7 +276,7 @@
     font-size:16px;  
     border: whitesmoke 2px solid; 
     color: whitesmoke; 
-    background-color:#5171a5;
+    background-color:transparent;
      
 }
 
@@ -318,17 +318,17 @@
 
  .lady-and-bridge-image {
      /*border: purple 2px solid;*/
-     height:150px; 
+     height:200px; 
  }
 
  .computer-image {
     /* border: purple 2px solid;*/ 
-     height: 150px; 
+     height: 200px; 
  }
 
  .notebooks-image {
    /*  border: purple 2px solid;*/ 
-     height:150px; 
+     height:200px; 
  }
 
  .services-button-container {
@@ -343,29 +343,69 @@
  .services-button {
     padding: 8px 24px; 
     font-size:16px;  
+    width: 160px;
    /* border: black 2px solid; */
     color: black;
-    background-color:whitesmoke;      
+    background-color:#ffffff;      
  }
 
  .lets-talk-label{
-     border:yellow 2px solid;
-     font-family:"Open Sans"
+     /* border:yellow 2px solid; */
+     font-family:"Open Sans";
      font-size: 16px; 
  }
 
- 
+ .name{
+background-color: transparent;
+border: 0px;
+    background: 
+    linear-gradient(#ffff, #fff) center bottom 5px /calc(100% - 10px) 2px no-repeat;
+}
+
+.phone{
+    background-color: transparent;
+    border: 0px;
+        background: 
+        linear-gradient(#ffff, #fff) center bottom 5px /calc(100% - 10px) 2px no-repeat;
+    }
+
+    .email{
+        background-color: transparent;
+        border: 0px;
+            background: 
+            linear-gradient(#ffff, #fff) center bottom 5px /calc(100% - 10px) 2px no-repeat;
+        }
+           
+        .name{
+            background-color: transparent;
+            border: 0px;
+                background: 
+                linear-gradient(#ffff, #fff) center bottom 5px /calc(100% - 10px) 2px no-repeat;
+            }
+            
+         .services{
+                background-color: transparent;
+                border: 0px;
+                    background: 
+                    linear-gradient(#ffff, #fff) center bottom 5px /calc(100% - 10px) 2px no-repeat;
+                }
+                
+
  .label-container {
      border: hotpink 3px solid; 
      display:flex; 
      flex-direction:column; 
      justify-content: space-evenly;
      height:200px; 
+     color: #ffffff;
+     font-family: 'Montserrat';
+     font-size: medium;
  }
  
  .lets-talk-form-button-container{
      border:purple 3px solid;
      height:auto;  
+     
  }
 
  /* Testimonial Section*/
@@ -377,6 +417,7 @@
     display:flex; 
     justify-content: center;
     padding-top:64px; 
+    margin-top:32px; 
    
  }
 
@@ -506,31 +547,36 @@ titles, text, and Read Me buttons*/
     border:blue 3px solid; 
     height:150px;
     width:325px;
-    display:flex; 
+    object-fit: cover;
+    /* display:flex; 
     font-family:'Open Sans';
     font-size:16px; 
     color: #747474;
     display:flex; 
     flex-direction:column; 
-    justify-content: space-between;
+    justify-content: space-between; */
 }
 
 .images-blog-container-man-on-cell-phone {
     border: blue 3px solid; 
     height:150px; 
     width:325px; 
+    object-fit: cover;
+    
 }
 
 .images-blog-container-man-on-mountain{
     border:blue 3px solid; 
     height:150px;
     width:325px;
-    font-family:'Open Sans';
+    object-fit: cover;
+    
+    /* font-family:'Open Sans';
     font-size:16px; 
     color: #747474;
     display:flex; 
     flex-direction:column; 
-    justify-content: space-between;
+    justify-content: space-between; */
 }
 .title-container-for-blog-images-titles-text-and-read-more-button{
     border:pink 3px solid; 
@@ -563,4 +609,34 @@ titles, text, and Read Me buttons*/
 
 .read-more-button {
     border:maroon 3px solid; 
+    font-size:16px; 
+    font-family:'Open Sans';
+    color:#587291;
+}
+
+.footer {
+    border:yellow 3px solid; 
+    height:300px; 
+    width:auto;
+}
+
+.logo-and-quote-container {
+    border:orangered 3px solid; 
+    height:128px; 
+    width:128px; 
+}
+
+.logo-container {
+    border: turquoise 3px solid; 
+    background-color: black;
+    width: 64px;
+    height:32px;
+}
+
+.quote-container {
+    border: brown; 
+}
+
+.image-logo {
+    border: black 2px solid;
 }
