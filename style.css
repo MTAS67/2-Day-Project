@@ -1,38 +1,34 @@
-.head {
+.head {}
 
-}
-
-.body {
-    
-}
+.body {}
 
 .hero-container {
     border: red 5px solid;
-    color:white; 
+    color: white;
     height: auto;
     min-width: 0;
     width: 100 vw;
-    background-image: url("images/background.webp"); 
+    background-image: url("images/background.webp");
     background-position: 50% 100%;
-    padding-top:0px;
+    padding-top: 0px;
     padding-bottom: 200px;
-    display:flex; 
-    flex-direction:column; 
-    justify-content:center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-  
-   
+
+
 }
 
 .header-container {
     border: yellow 5px solid;
-    margin:0; 
-   /* position:fixed;*/
-    top:0;
-    display:flex;
+    margin: 0;
+    /* position:fixed;*/
+    top: 0;
+    display: flex;
     align-items: center;
     justify-content: space-around;
-    width:100%;
+    width: 100%;
 }
 
 .background-image {
@@ -43,7 +39,7 @@
 
 /*Hero Container Starts Here*/
 .header-logo-container {
-    border: hotpink 1px solid; 
+    border: hotpink 1px solid;
     height: 50px;
     width: 200px;
     align-items: center;
@@ -51,28 +47,28 @@
 }
 
 .random-logo-img {
-    height:3px; 
-    width:5px;    
+    height: 3px;
+    width: 5px;
 }
 
 
 
 .header-menu-container {
-    border: 5px purple solid; 
-    width:450px; 
-    display:flex; 
+    border: 5px purple solid;
+    width: 450px;
+    display: flex;
     justify-content: space-evenly;
-    
-    
-    }
-    
-.header-menu-text{
+
+
+}
+
+.header-menu-text {
     font-family: 'Montserrat';
     font-size: 16px;
     font-style: normal;
     text-transform: uppercase;
     color: white;
-    border: orange 5px solid; 
+    border: orange 5px solid;
 }
 
 /*
@@ -82,29 +78,30 @@
 */
 
 .hero-content-container {
-    border:blue 3px solid; 
-    font-family:'Montserrat';
-    width:40%; 
-    height:218px; 
-    display:flex; 
-    flex-direction: column; 
-    text-align:center; 
-    gap:24px; 
-    margin-top:135px; 
-    font-size:54px; 
-    
+    border: blue 3px solid;
+    font-family: 'Montserrat';
+    width: 40%;
+    height: 218px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+    margin-top: 135px;
+    font-size: 54px;
+
 }
 
 .button-container-one {
-    border: hotpink 3px solid; 
-    display:flex; 
+    border: hotpink 3px solid;
+    display: flex;
     justify-content: center;
 }
-.hero-button{
-    font-size:16px; 
-    border: white solid; 
-    color:white; 
-    padding: 8px 24px;   
+
+.hero-button {
+    font-size: 16px;
+    border: white solid;
+    color: white;
+    padding: 8px 24px;
     background-color: transparent;
 }
 
@@ -113,80 +110,82 @@
 /* About Me Section Starts Here */
 
 .about-me-container {
-    border: turquoise 5px solid; 
-    display:flex; 
+    border: turquoise 5px solid;
+    display: flex;
     flex-direction: row;
-    width: 60%; 
-    height:300px; 
-    margin-top:64px; 
-    margin-bottom:64px; 
-    margin-left:auto; 
-    margin-right:auto;
-    display:flex; 
-    
-}
-
-.about-me-image-container{
-    border: maroon 5px solid; 
-    width:50%; 
+    width: 60%;
+    height: 300px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
 
 }
 
-
-.about-me-image-img{
-    width:485px;
-    height:290px;
+.about-me-image-container {
+    border: maroon 5px solid;
+    width: 50%;
 
 }
+
+
+.about-me-image-img {
+    width: 485px;
+    height: 290px;
+
+}
+
 .about-me-header {
-    border: red 3px dashed; 
-    height:auto; 
+    border: red 3px dashed;
+    height: auto;
 }
 
-.about-me-header-one{
+.about-me-header-one {
     border: yellow 3px dashed;
     font-family: "Montserrat";
-    font-size:45px; 
+    font-size: 45px;
     color: #223855;
 }
 
 .about-me-header-two {
-    border: pink 3px dashed; 
-    font-size: 20px; 
-    color:#223855;
+    border: pink 3px dashed;
+    font-size: 20px;
+    color: #223855;
 }
 
 .about-me-blue-line {
-    border: green 3px dashed; 
-    height: 32px; 
+    border: green 3px dashed;
+    height: 32px;
 }
 
-.about-me-text-container{
+.about-me-text-container {
     border: orange 3px dashed;
     background-color: #e9f6ff;
-    width:50%;  
-    padding-left:18px;
-    font-family:"Montserrat";
-    font-size:20px; 
-   
-}
-.about-me-description-container{
-    border:purple 3px dashed; 
-    font-family:"Open Sans";
-    font-size: 16px; 
-    color:#587291;
+    width: 50%;
+    padding-left: 18px;
+    font-family: "Montserrat";
+    font-size: 20px;
+
 }
 
-.button-container-two{
+.about-me-description-container {
+    border: purple 3px dashed;
+    font-family: "Open Sans";
+    font-size: 16px;
+    color: #587291;
+}
+
+.button-container-two {
     border: orange 3px solid;
-    font-size:16px; 
+    font-size: 16px;
 }
 
 .about-me-button {
-    font-size:16px; 
-    padding: 8px 24px; 
-    border: #2b4a61 2px solid; 
-    color:#2b4a61;
+    font-size: 16px;
+    padding: 8px 24px;
+    border: #2b4a61 2px solid;
+    color: #2b4a61;
     background-color: transparent;
 }
 
@@ -195,62 +194,62 @@
 /* Beginning of Let's Talk Section */
 
 .lets-talk-section-main-container {
-    border: blue 3px dashed; 
+    border: blue 3px dashed;
     background-image: url("images/background.webp");
-    background-color:#5171a5;
-    height:300px; 
-    display:flex; 
-    flex-direction:row; 
+    background-color: #5171a5;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
-    gap:32px; 
-    padding-top:64px; 
-    padding-bottom:64px; 
-   
+    gap: 32px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+
 }
 
 
-.lets-talk-section-left-right-container{
-    border: black 3px dashed; 
-    display:flex; 
+.lets-talk-section-left-right-container {
+    border: black 3px dashed;
+    display: flex;
     justify-content: center;
-    gap:32px; 
-    width:1500px; 
-    margin-right:32px;
+    gap: 32px;
+    width: 1500px;
+    margin-right: 32px;
 }
 
 .left-side-container {
-    border: maroon 3px dashed; 
-    color:white; 
+    border: maroon 3px dashed;
+    color: white;
     font-size: 45px;
     font-family: "Montserrat";
-    display:flex; 
+    display: flex;
     flex-direction: column;
-    width:30%; 
-    margin-left:0px;
-    background-color:#315174;
-    
-     
+    width: 30%;
+    margin-left: 0px;
+    background-color: #315174;
+
+
 }
 
-.lets-talk-section-header-and-text-container{
-    border: green 3px solid; 
-    height:140px; 
-    
+.lets-talk-section-header-and-text-container {
+    border: green 3px solid;
+    height: 140px;
+
 }
 
 .lets-talk-section-heading-container {
     border: hotpink 3px solid;
-    margin-bottom:32px;  
+    margin-bottom: 32px;
 }
 
-.right-side-container{
-    border:gray 8px solid; 
-    width:30%; 
-    display:flex; 
+.right-side-container {
+    border: gray 8px solid;
+    width: 30%;
+    display: flex;
     flex-direction: column;
     align-items: space-between;
     justify-content: space-between;
-    height:280px;
+    height: 280px;
 }
 
 /*
@@ -265,244 +264,248 @@
 }
 */
 .button-container-three {
-    border: orange 3px dashed; 
-    display:flex; 
-    align-items:flex-end;
-    height:44px;  
-    
-}
-.lets-talk-button{ 
-    padding: 8px 24px; 
-    font-size:16px;  
-    border: whitesmoke 2px solid; 
-    color: whitesmoke; 
-    background-color:transparent;
-     
+    border: orange 3px dashed;
+    display: flex;
+    align-items: flex-end;
+    height: 44px;
+
 }
 
- .lets-talk-container-text-container{
-     border: turquoise 3px dashed;
-     font-family: "Montserrat"; 
-     font-size:16px; 
- }
+.lets-talk-button {
+    padding: 8px 24px;
+    font-size: 16px;
+    border: whitesmoke 2px solid;
+    color: whitesmoke;
+    background-color: transparent;
 
- .services-main-container {
-   /*  border:red 2px solid;*/
-     height:250px;  
-     width:60%;
-     margin-left:330px; 
-     margin-top:64px; 
-     margin-bottom:128px; 
-     font-family:'Montserrat';
-     font-size: 45px; 
-     display:flex; 
-     flex-direction:column; 
-     align-items:center;
-     padding-bottom:24px; 
- }
+}
 
- .services-main-container-header-container{
-   /*  border:yellow 2px solid;*/      
- }
- .three-images-container {
-   /*  border: green 2px solid; */
-     height:auto; 
-     width:auto;
-     display:flex; 
-     justify-content: center; 
-     gap:16px; 
-     margin-top:32px; 
-    
- 
- }
+.lets-talk-container-text-container {
+    border: turquoise 3px dashed;
+    font-family: "Montserrat";
+    font-size: 16px;
+}
 
- .lady-and-bridge-image {
-     /*border: purple 2px solid;*/
-     height:200px; 
- }
+.services-main-container {
+    /*  border:red 2px solid;*/
+    height: 250px;
+    width: 60%;
+    margin-left: 330px;
+    margin-top: 64px;
+    margin-bottom: 128px;
+    font-family: 'Montserrat';
+    font-size: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 24px;
+}
 
- .computer-image {
-    /* border: purple 2px solid;*/ 
-     height: 200px; 
- }
+.services-main-container-header-container {
+    /*  border:yellow 2px solid;*/
+}
 
- .notebooks-image {
-   /*  border: purple 2px solid;*/ 
-     height:200px; 
- }
+.three-images-container {
+    /*  border: green 2px solid; */
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 32px;
 
- .services-button-container {
-  /*   border: orange 3px solid;*/ 
-     margin-top:32px; 
-     height:64px; 
-     padding-top:0px; 
-     display:flex; 
-     align-items: flex-start;
- }
 
- .services-button {
-    padding: 8px 24px; 
-    font-size:16px;  
+}
+
+.lady-and-bridge-image {
+    /*border: purple 2px solid;*/
+    height: 200px;
+}
+
+.computer-image {
+    /* border: purple 2px solid;*/
+    height: 200px;
+}
+
+.notebooks-image {
+    /*  border: purple 2px solid;*/
+    height: 200px;
+}
+
+.services-button-container {
+    /*   border: orange 3px solid;*/
+    margin-top: 32px;
+    height: 64px;
+    padding-top: 0px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.services-button {
+    padding: 8px 24px;
+    font-size: 16px;
     width: 160px;
-   /* border: black 2px solid; */
+    /* border: black 2px solid; */
     color: black;
-    background-color:#ffffff;      
- }
-
- .lets-talk-label{
-     /* border:yellow 2px solid; */
-     font-family:"Open Sans";
-     font-size: 16px; 
- }
-
- .name{
-background-color: transparent;
-border: 0px;
-    background: 
-    linear-gradient(#ffff, #fff) center bottom 5px /calc(100% - 10px) 2px no-repeat;
+    background-color: #ffffff;
 }
 
-.phone{
+.lets-talk-label {
+    /* border:yellow 2px solid; */
+    font-family: "Open Sans";
+    font-size: 16px;
+}
+
+.name {
     background-color: transparent;
     border: 0px;
-        background: 
+    background:
         linear-gradient(#ffff, #fff) center bottom 5px /calc(100% - 10px) 2px no-repeat;
-    }
+}
 
-    .email{
-        background-color: transparent;
-        border: 0px;
-            background: 
-            linear-gradient(#ffff, #fff) center bottom 5px /calc(100% - 10px) 2px no-repeat;
-        }
-           
-        .name{
-            background-color: transparent;
-            border: 0px;
-                background: 
-                linear-gradient(#ffff, #fff) center bottom 5px /calc(100% - 10px) 2px no-repeat;
-            }
-            
-         .services{
-                background-color: transparent;
-                border: 0px;
-                    background: 
-                    linear-gradient(#ffff, #fff) center bottom 5px /calc(100% - 10px) 2px no-repeat;
-                }
-                
+.phone {
+    background-color: transparent;
+    border: 0px;
+    background:
+        linear-gradient(#ffff, #fff) center bottom 5px /calc(100% - 10px) 2px no-repeat;
+}
 
- .label-container {
-     border: hotpink 3px solid; 
-     display:flex; 
-     flex-direction:column; 
-     justify-content: space-evenly;
-     height:200px; 
-     color: #ffffff;
-     font-family: 'Montserrat';
-     font-size: medium;
- }
- 
- .lets-talk-form-button-container{
-     border:purple 3px solid;
-     height:auto;  
-     
- }
+.email {
+    background-color: transparent;
+    border: 0px;
+    background:
+        linear-gradient(#ffff, #fff) center bottom 5px /calc(100% - 10px) 2px no-repeat;
+}
 
- /* Testimonial Section*/
- .testimonials-main-container{
-  /*  border: orange 3px dashed;*/ 
+.name {
+    background-color: transparent;
+    border: 0px;
+    background:
+        linear-gradient(#ffff, #fff) center bottom 5px /calc(100% - 10px) 2px no-repeat;
+}
+
+.services {
+    background-color: transparent;
+    border: 0px;
+    background:
+        linear-gradient(#ffff, #fff) center bottom 5px /calc(100% - 10px) 2px no-repeat;
+}
+
+
+.label-container {
+    border: hotpink 3px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-size: medium;
+}
+
+.lets-talk-form-button-container {
+    border: purple 3px solid;
+    height: auto;
+
+}
+
+/* Testimonial Section*/
+.testimonials-main-container {
+    /*  border: orange 3px dashed;*/
     background-color: #e9f6ff;
-    height: 300px; 
-    margin-top:-64px;
-    display:flex; 
+    height: 300px;
+    margin-top: -64px;
+    display: flex;
     justify-content: center;
-    padding-top:64px; 
-    margin-top:32px; 
-   
- }
+    padding-top: 64px;
+    margin-top: 32px;
 
- .header-icon-text-name-container{
-  /*  border: blue 3px dashed;*/
-    height: 300px; 
-    width:900px; 
-    margin-bottom:auto; 
-    display:flex; 
-    
+}
+
+.header-icon-text-name-container {
+    /*  border: blue 3px dashed;*/
+    height: 300px;
+    width: 900px;
+    margin-bottom: auto;
+    display: flex;
+
     justify-content: center;
- }
+}
 
- .testimonials-header-container{
- /* border:hotpink 3px dashed;*/
-  height:48px;
-  width:300px;
-  
- }
+.testimonials-header-container {
+    /* border:hotpink 3px dashed;*/
+    height: 48px;
+    width: 300px;
 
- .testimonials-header-text{
-    font-family:'Montserrat';
-    font-size:45px;
+}
+
+.testimonials-header-text {
+    font-family: 'Montserrat';
+    font-size: 45px;
     text-align: center;
- }
+}
 
- .testimonials-icon-container{
-  /*  border: turquoise 3px dashed;*/
-    height:48px; 
-    margin-top:32px; 
- }
+.testimonials-icon-container {
+    /*  border: turquoise 3px dashed;*/
+    height: 48px;
+    margin-top: 32px;
+}
 
- .testimonials-icon{
-     font-family: 'Montserrat';
-     font-size: 45px;
-     color: rgba(0,190,242,1);
-     text-align: center;
- }
-
- .testimonials-text-container{
-  /*  border: maroon 3px dashed;*/ 
-    height:150px;
-    width:300px; 
-    display:flex; 
-    
-   
-   
- }
-
- .testimonials-text-container-text{
-   /* border: peachpuff 3px dashed;*/
-    width:600px; 
+.testimonials-icon {
+    font-family: 'Montserrat';
+    font-size: 45px;
+    color: rgba(0, 190, 242, 1);
     text-align: center;
-    margin-left:-155px; 
-    margin-top:16px; 
-    font-family:'Open Sans';
-    font-size:16px; 
-    
- }
-
-.testimonials-main-container-name{
-  /*  border: teal 3px dashed;*/
-    height:auto; 
-    width:auto; 
-    text-align:center;
-    margin-top:32px; 
-    font-family:'Montserrat';
-    font-size:16px; 
 }
 
-.container-for-header-icon-text-name{
-   /* border:black 3px solid; */
-    width:600px; 
-    display:flex; 
-    justify-content: center;    
+.testimonials-text-container {
+    /*  border: maroon 3px dashed;*/
+    height: 150px;
+    width: 300px;
+    display: flex;
+
+
+
 }
 
-.blog-label-container{
-    border:black 3px solid; 
-    width:auto;
-    margin-top:64px; 
+.testimonials-text-container-text {
+    /* border: peachpuff 3px dashed;*/
+    width: 600px;
+    text-align: center;
+    margin-left: -155px;
+    margin-top: 16px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+
 }
-.blog-label{
-    font-family:'Montserrat';
-    font-size:45px; 
+
+.testimonials-main-container-name {
+    /*  border: teal 3px dashed;*/
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin-top: 32px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+
+.container-for-header-icon-text-name {
+    /* border:black 3px solid; */
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.blog-label-container {
+    border: black 3px solid;
+    width: auto;
+    margin-top: 64px;
+
+}
+
+.blog-label {
+    font-family: 'Montserrat';
+    font-size: 45px;
     text-align: center;
 }
 
@@ -512,41 +515,41 @@ border: 0px;
 titles, text, and Read Me buttons*/
 
 
-.container-for-blog-images-titles-text-and-read-more-button{
-    border:red 3px solid; 
-    display:flex; 
+.container-for-blog-images-titles-text-and-read-more-button {
+    border: red 3px solid;
+    display: flex;
     justify-content: center;
-    flex-direction:row;  
-    gap:16px;  
+    flex-direction: row;
+    gap: 16px;
+    margin-top: 64px;
+
 }
 
-.image-container-for-blog-images-titles-text-and-read-more-button{
-    border:yellow 3px solid;
-    width:325px; 
-    height:auto; 
-}
-
-
-
-.container-man-on-cell-phone{
-    border:hotpink 3px solid; 
-    width:335px; 
-}
-.container-man-on-cell-phone{
-    border:rgb(52, 37, 44) 3px solid; 
-    width:335px; 
-}
-
-.container-man-on-mountain{
-    border:green 3px solid; 
-    width:335px; 
+.image-container-for-blog-images-titles-text-and-read-more-button {
+    border: yellow 3px solid;
+    width: 325px;
+    height: auto;
 }
 
 
-.images-blog-container-man-smiling{
-    border:blue 3px solid; 
-    height:150px;
-    width:325px;
+.container-man-on-cell-phone {
+    border: rgb(52, 37, 44) 3px solid;
+    width: 335px;
+    margin-top: 64px;
+}
+
+.container-man-on-mountain {
+    border: green 3px solid;
+    width: 335px;
+
+}
+
+.container-man-smiling {}
+
+.images-blog-container-man-smiling {
+    border: blue 3px solid;
+    height: 150px;
+    width: 325px;
     object-fit: cover;
     /* display:flex; 
     font-family:'Open Sans';
@@ -558,19 +561,19 @@ titles, text, and Read Me buttons*/
 }
 
 .images-blog-container-man-on-cell-phone {
-    border: blue 3px solid; 
-    height:150px; 
-    width:325px; 
+    border: blue 3px solid;
+    height: 150px;
+    width: 325px;
     object-fit: cover;
-    
+
 }
 
-.images-blog-container-man-on-mountain{
-    border:blue 3px solid; 
-    height:150px;
-    width:325px;
+.images-blog-container-man-on-mountain {
+    border: blue 3px solid;
+    height: 150px;
+    width: 325px;
     object-fit: cover;
-    
+
     /* font-family:'Open Sans';
     font-size:16px; 
     color: #747474;
@@ -578,65 +581,239 @@ titles, text, and Read Me buttons*/
     flex-direction:column; 
     justify-content: space-between; */
 }
-.title-container-for-blog-images-titles-text-and-read-more-button{
-    border:pink 3px solid; 
-    
+
+.title-container-for-blog-images-titles-text-and-read-more-button {
+    border: pink 3px solid;
+
 }
 
-.title-text{
-    border:green 3px solid; 
-    margin-bottom:16px; 
-    font-family:'Montserrat';
-    font-size: 16px; 
-    font-weight:bolder; 
+.title-text {
+    border: green 3px solid;
+    margin-bottom: 16px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: bolder;
     color: #223855;
 }
 
 .text-container-for-blog-images-title-text-and-read-more-button {
-    border: purple 3px solid; 
-    font-family:'Open Sans';
-    font-size:16px; 
+    border: purple 3px solid;
+    font-family: 'Open Sans';
+    font-size: 16px;
     color: #747474;
-    display:flex; 
-    flex-direction:column; 
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
-.read-more-button-container-for-blog-images-titles-text-and-read-more-button{
-    border:orange 3px solid; 
-    margin-top:32px; 
+.read-more-button-container-for-blog-images-titles-text-and-read-more-button {
+    border: orange 3px solid;
+    margin-top: 32px;
 }
 
 .read-more-button {
-    border:maroon 3px solid; 
-    font-size:16px; 
-    font-family:'Open Sans';
-    color:#587291;
+    border: maroon 3px solid;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    color: #587291;
 }
 
+/*This is the footer section*/
+
 .footer {
-    border:yellow 3px solid; 
-    height:300px; 
-    width:auto;
+    border: yellow 3px solid;
+    height: 400px;
+    width: auto;
+    margin-top: 64px;
+    margin-left: auto;
+    background-color: #223855;
+   
+}
+
+.logo-quote-quick-links-services-contact {
+    border: hotpink 3px solid;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 64px;
+    display: flex;
+    width: 75% vw;
+    justify-content: space-around;
 }
 
 .logo-and-quote-container {
-    border:orangered 3px solid; 
-    height:128px; 
-    width:128px; 
+    border: blue 3px solid;
+    height: 200px;
+    width: 250px;
+    background-color: black;
 }
 
+
 .logo-container {
-    border: turquoise 3px solid; 
+    border: turquoise 3px solid;
     background-color: black;
-    width: 64px;
-    height:32px;
+    width: auto;
+    height: auto;
+
+
 }
 
 .quote-container {
-    border: brown; 
+    border: purple 3px solid;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    color: #ffffff;
+    width: auto;
+    height: auto;
+    display: flex;
+    margin-top: 0px;
+
 }
 
 .image-logo {
-    border: black 2px solid;
+    margin-bottom: 16px;
+    width:180px; 
+
+}
+
+.quick-links-header-and-links-container {
+    border: orange 3px solid;
+
+}
+
+.quick-links-header-text {
+    border: green 3px solid;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.quick-links {
+    border: peachpuff 3px solid;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    color: #ffffff;
+    padding-bottom: 128px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: center;
+    width: auto;
+    gap: 8px;
+
+}
+
+.quick-links-labels {
+    font-family: 'Montserrat';
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.services-container {
+    border: purple 3px solid;
+    color:#ffffff;
+}
+
+.services-label {
+    border: green 3px solid;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+.services-container-links {
+    border: yellow 3px solid;
+    margin-top: 16px;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.contact-us{
+    
+}
+.contact-label {
+    border: green 3px solid;
+    margin-bottom:16px;
+    color: #ffffff; 
+}
+
+.contact-label-container {
+    border: teal 3px solid;
+    margin-top:16px;
+}
+
+.contact-number {
+    border: brown 3px solid;
+    color:#ffffff; 
+}
+
+.contact-email {
+    border: blue 3px solid;
+}
+
+.contact-address-street {
+    border: yellow 3px solid;
+    color:#ffffff; 
+}
+
+.city-name {
+    border: green 3px solid;
+}
+
+
+.three-footer-icons{
+    border: orangered 3px solid; 
+    height:64px; 
+    margin-top:16px; 
+    display:flex; 
+    flex-direction:row; 
+    gap:16px; 
+}
+
+.facebook-icon{
+    border: green 3px solid; 
+    height:32px;   
+    width:32px; 
+}
+
+.facebook-logo{
+width:32px; 
+}
+
+.twitter-icon {
+    border:blue 3px solid; 
+    height:32px; 
+    width:32px; 
+
+}
+
+.twitter-logo{
+    width:32px; 
+}
+.instagram-icon{
+    border:purple 3px solid; 
+    height:32px; 
+    width:32px; 
+    
+}
+
+.instagram-logo{
+    width:32px; 
+}
+
+.copyright-year-title{
+    border:turquoise 3px solid; 
+    height:56px; 
+    color:#ffffff;
+    font-family:'Montserrat';
+    font-size:13px; 
+    display:flex; 
+    justify-content: center;
+    align-items: center;
 }
