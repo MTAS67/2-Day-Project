@@ -1,9 +1,13 @@
 .head {}
 
-.body {}
+.body {
+    font-family: 'Montserrat';
+    font-size: small;
+
+}
 
 .hero-container {
-    border: red 5px solid;
+    /* border: red 5px solid; */
     color: white;
     height: auto;
     min-width: 0;
@@ -21,7 +25,7 @@
 }
 
 .header-container {
-    border: yellow 5px solid;
+    /* border: yellow 5px solid; */
     margin: 0;
     /* position:fixed;*/
     top: 0;
@@ -39,7 +43,7 @@
 
 /*Hero Container Starts Here*/
 .header-logo-container {
-    border: hotpink 1px solid;
+    /* border: hotpink 1px solid; */
     height: 50px;
     width: 200px;
     align-items: center;
@@ -54,7 +58,7 @@
 
 
 .header-menu-container {
-    border: 5px purple solid;
+    /* border: 5px purple solid; */
     width: 450px;
     display: flex;
     justify-content: space-evenly;
@@ -68,7 +72,7 @@
     font-style: normal;
     text-transform: uppercase;
     color: white;
-    border: orange 5px solid;
+    /* border: orange 5px solid; */
 }
 
 /*
@@ -78,7 +82,7 @@
 */
 
 .hero-content-container {
-    border: blue 3px solid;
+    /* border: blue 3px solid; */
     font-family: 'Montserrat';
     width: 40%;
     height: 218px;
@@ -92,7 +96,7 @@
 }
 
 .button-container-one {
-    border: hotpink 3px solid;
+    /* border: hotpink 3px solid; */
     display: flex;
     justify-content: center;
 }
@@ -110,7 +114,7 @@
 /* About Me Section Starts Here */
 
 .about-me-container {
-    border: turquoise 5px solid;
+    /* border: turquoise 5px solid; */
     display: flex;
     flex-direction: row;
     width: 60%;
@@ -124,7 +128,7 @@
 }
 
 .about-me-image-container {
-    border: maroon 5px solid;
+    /* border: maroon 5px solid; */
     width: 50%;
 
 }
@@ -137,30 +141,30 @@
 }
 
 .about-me-header {
-    border: red 3px dashed;
+    /* border: red 3px dashed; */
     height: auto;
 }
 
 .about-me-header-one {
-    border: yellow 3px dashed;
+    /* border: yellow 3px dashed; */
     font-family: "Montserrat";
     font-size: 45px;
     color: #223855;
 }
 
 .about-me-header-two {
-    border: pink 3px dashed;
+    /* border: pink 3px dashed; */
     font-size: 20px;
     color: #223855;
 }
 
 .about-me-blue-line {
-    border: green 3px dashed;
+    /* border: green 3px dashed; */
     height: 32px;
 }
 
 .about-me-text-container {
-    border: orange 3px dashed;
+    /* border: orange 3px dashed; */
     background-color: #e9f6ff;
     width: 50%;
     padding-left: 18px;
@@ -170,14 +174,14 @@
 }
 
 .about-me-description-container {
-    border: purple 3px dashed;
+    /* border: purple 3px dashed; */
     font-family: "Open Sans";
     font-size: 16px;
     color: #587291;
 }
 
 .button-container-two {
-    border: orange 3px solid;
+    /* border: orange 3px solid; */
     font-size: 16px;
 }
 
@@ -194,7 +198,7 @@
 /* Beginning of Let's Talk Section */
 
 .lets-talk-section-main-container {
-    border: blue 3px dashed;
+    /* border: blue 3px dashed; */
     background-image: url("images/background.webp");
     background-color: #5171a5;
     height: 300px;
@@ -209,7 +213,7 @@
 
 
 .lets-talk-section-left-right-container {
-    border: black 3px dashed;
+    /* border: black 3px dashed; */
     display: flex;
     justify-content: center;
     gap: 32px;
@@ -218,87 +222,90 @@
 }
 
 .left-side-container {
-    border: maroon 3px dashed;
+ /*   border: maroon 3px dashed; */
     color: white;
     font-size: 45px;
     font-family: "Montserrat";
     display: flex;
     flex-direction: column;
     width: 30%;
-    margin-left: 0px;
+    margin-left: -18px;
     background-color: #315174;
 
 
 }
 
 .lets-talk-section-header-and-text-container {
-    border: green 3px solid;
+   /* border: green 3px solid;*/ 
     height: 140px;
+    margin-right:32px; 
+   
 
 }
 
 .lets-talk-section-heading-container {
-    border: hotpink 3px solid;
+  /*  border: hotpink 3px solid; */
     margin-bottom: 32px;
+    padding-left:32px; 
+    padding-top:32px;
+    margin-right:32px; 
+    
+
 }
 
 .right-side-container {
-    border: gray 8px solid;
+  /*  border: gray 8px solid;*/
     width: 30%;
     display: flex;
     flex-direction: column;
     align-items: space-between;
     justify-content: space-between;
     height: 280px;
+    padding-top:32px; 
+   
+    
 }
 
-/*
-.right-side-container-text-container-text{
-    border: red 3px dashed; 
-    color:whitesmoke; 
-    font-size:16px; 
-    width:447px; 
-    height:32px; 
-    gap:8px; 
-    margin-bottom:16px;  
-}
-*/
 .button-container-three {
-    border: orange 3px dashed;
+  /*  border: orange 3px dashed; */
     display: flex;
     align-items: flex-end;
     height: 44px;
+    margin-top:-32px;
+    
 
 }
 
 .lets-talk-button {
-    padding: 8px 24px;
+    padding: 14px 48px;
     font-size: 16px;
     border: whitesmoke 2px solid;
     color: whitesmoke;
     background-color: transparent;
-
+    
 }
 
 .lets-talk-container-text-container {
-    border: turquoise 3px dashed;
+ /*   border: turquoise 3px dashed;*/
     font-family: "Montserrat";
     font-size: 16px;
+    margin-left:32px; 
 }
 
 .services-main-container {
     /*  border:red 2px solid;*/
-    height: 250px;
+    height: auto;
     width: 60%;
     margin-left: 330px;
     margin-top: 64px;
-    margin-bottom: 128px;
     font-family: 'Montserrat';
     font-size: 45px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 24px;
+    /* justify-self: center; */
+    /* align-self: center; */
 }
 
 .services-main-container-header-container {
@@ -313,8 +320,22 @@
     justify-content: center;
     gap: 16px;
     margin-top: 32px;
+    color: white;
+}
 
 
+.image-holder p {
+    color: white;
+    transform: translate-(50%, -50%);
+    text-align: center;
+    position: relative;
+    top: -50%;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    /* 
+    left: 50%;
+    color: black;
+     */
 }
 
 .lady-and-bridge-image {
@@ -347,7 +368,7 @@
     width: 160px;
     /* border: black 2px solid; */
     color: black;
-    background-color: #ffffff;
+    background: transparent;
 }
 
 .lets-talk-label {
@@ -393,7 +414,7 @@
 
 
 .label-container {
-    border: hotpink 3px solid;
+    /* border: hotpink 3px solid; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -404,7 +425,7 @@
 }
 
 .lets-talk-form-button-container {
-    border: purple 3px solid;
+    /* border: purple 3px solid; */
     height: auto;
 
 }
@@ -463,9 +484,6 @@
     height: 150px;
     width: 300px;
     display: flex;
-
-
-
 }
 
 .testimonials-text-container-text {
@@ -497,9 +515,9 @@
 }
 
 .blog-label-container {
-    border: black 3px solid;
     width: auto;
     margin-top: 64px;
+    font-weight: lighter;
 
 }
 
@@ -516,52 +534,42 @@ titles, text, and Read Me buttons*/
 
 
 .container-for-blog-images-titles-text-and-read-more-button {
-    border: red 3px solid;
+    /* border: red 5px solid; */
     display: flex;
     justify-content: center;
     flex-direction: row;
     gap: 16px;
-    margin-top: 64px;
-
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .image-container-for-blog-images-titles-text-and-read-more-button {
-    border: yellow 3px solid;
+    /* border: yellow 3px solid; */
     width: 325px;
     height: auto;
 }
 
 
 .container-man-on-cell-phone {
-    border: rgb(52, 37, 44) 3px solid;
+    /* border: purple 3px solid; */
     width: 335px;
-    margin-top: 64px;
 }
 
 .container-man-on-mountain {
-    border: green 3px solid;
+    /* border: green 3px solid; */
     width: 335px;
 
 }
 
-.container-man-smiling {}
-
 .images-blog-container-man-smiling {
-    border: blue 3px solid;
+    /* border: blue 3px solid; */
     height: 150px;
     width: 325px;
     object-fit: cover;
-    /* display:flex; 
-    font-family:'Open Sans';
-    font-size:16px; 
-    color: #747474;
-    display:flex; 
-    flex-direction:column; 
-    justify-content: space-between; */
 }
 
 .images-blog-container-man-on-cell-phone {
-    border: blue 3px solid;
+    /* border: blue 3px solid; */
     height: 150px;
     width: 325px;
     object-fit: cover;
@@ -569,7 +577,7 @@ titles, text, and Read Me buttons*/
 }
 
 .images-blog-container-man-on-mountain {
-    border: blue 3px solid;
+    /* border: blue 3px solid; */
     height: 150px;
     width: 325px;
     object-fit: cover;
@@ -582,13 +590,8 @@ titles, text, and Read Me buttons*/
     justify-content: space-between; */
 }
 
-.title-container-for-blog-images-titles-text-and-read-more-button {
-    border: pink 3px solid;
-
-}
-
 .title-text {
-    border: green 3px solid;
+    /* border: green 3px solid; */
     margin-bottom: 16px;
     font-family: 'Montserrat';
     font-size: 16px;
@@ -597,7 +600,7 @@ titles, text, and Read Me buttons*/
 }
 
 .text-container-for-blog-images-title-text-and-read-more-button {
-    border: purple 3px solid;
+    /* border: purple 3px solid; */
     font-family: 'Open Sans';
     font-size: 16px;
     color: #747474;
@@ -607,31 +610,34 @@ titles, text, and Read Me buttons*/
 }
 
 .read-more-button-container-for-blog-images-titles-text-and-read-more-button {
-    border: orange 3px solid;
+    /* border: orange 3px solid; */
     margin-top: 32px;
 }
 
 .read-more-button {
-    border: maroon 3px solid;
+    /* border: maroon 3px solid; */
     font-size: 16px;
     font-family: 'Open Sans';
     color: #587291;
+    border: none;
+    background-color: transparent;
 }
 
 /*This is the footer section*/
 
 .footer {
-    border: yellow 3px solid;
+   /* border: yellow 3px solid;*/ 
     height: 400px;
     width: auto;
     margin-top: 64px;
     margin-left: auto;
+    padding-top:32px; 
     background-color: #223855;
-   
+
 }
 
 .logo-quote-quick-links-services-contact {
-    border: hotpink 3px solid;
+    /* border: hotpink 3px solid; */
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 64px;
@@ -641,16 +647,16 @@ titles, text, and Read Me buttons*/
 }
 
 .logo-and-quote-container {
-    border: blue 3px solid;
+  /*  border: blue 3px solid;*/
     height: 200px;
     width: 250px;
-    background-color: black;
+    background-color:#223855;
 }
 
 
 .logo-container {
-    border: turquoise 3px solid;
-    background-color: black;
+   /* border: turquoise 3px solid;*/
+    background-color: #223855;
     width: auto;
     height: auto;
 
@@ -658,7 +664,7 @@ titles, text, and Read Me buttons*/
 }
 
 .quote-container {
-    border: purple 3px solid;
+  /*  border: purple 3px solid;*/
     font-family: 'Montserrat';
     font-size: 13px;
     color: #ffffff;
@@ -671,24 +677,24 @@ titles, text, and Read Me buttons*/
 
 .image-logo {
     margin-bottom: 16px;
-    width:180px; 
+    width: 180px;
 
 }
 
 .quick-links-header-and-links-container {
-    border: orange 3px solid;
+   /* border: orange 3px solid;*/
 
 }
 
 .quick-links-header-text {
-    border: green 3px solid;
+  /*  border: green 3px solid;*/
     font-family: 'Montserrat';
     font-size: 14px;
     color: #ffffff;
 }
 
 .quick-links {
-    border: peachpuff 3px solid;
+   /* border: peachpuff 3px solid;*/
     font-family: 'Montserrat';
     font-size: 13px;
     color: #ffffff;
@@ -711,12 +717,12 @@ titles, text, and Read Me buttons*/
 }
 
 .services-container {
-    border: purple 3px solid;
-    color:#ffffff;
+   /* border: purple 3px solid;*/
+    color: #ffffff;
 }
 
 .services-label {
-    border: green 3px solid;
+  /*  border: green 3px solid;*/
     font-family: 'Montserrat';
     font-size: 14px;
     font-weight: bold;
@@ -725,7 +731,7 @@ titles, text, and Read Me buttons*/
 
 
 .services-container-links {
-    border: yellow 3px solid;
+  /*  border: yellow 3px solid;*/
     margin-top: 16px;
     font-family: 'Montserrat';
     font-size: 13px;
@@ -734,86 +740,88 @@ titles, text, and Read Me buttons*/
     flex-direction: column;
     gap: 16px;
 }
-.contact-us{
-    
-}
+
+.contact-us {}
+
 .contact-label {
-    border: green 3px solid;
-    margin-bottom:16px;
-    color: #ffffff; 
+   /* border: green 3px solid;*/
+    margin-bottom: 16px;
+    color: #ffffff;
 }
 
 .contact-label-container {
-    border: teal 3px solid;
-    margin-top:16px;
+  /*  border: teal 3px solid;*/
+   
 }
 
 .contact-number {
-    border: brown 3px solid;
-    color:#ffffff; 
+  /*  border: brown 3px solid;*/
+    color: #ffffff;
 }
 
 .contact-email {
-    border: blue 3px solid;
+   /* border: blue 3px solid;*/
 }
 
 .contact-address-street {
-    border: yellow 3px solid;
-    color:#ffffff; 
+  /*  border: yellow 3px solid;*/
+    color: #ffffff;
 }
 
 .city-name {
-    border: green 3px solid;
+  /*  border: green 3px solid;*/
 }
 
 
-.three-footer-icons{
-    border: orangered 3px solid; 
-    height:64px; 
-    margin-top:16px; 
-    display:flex; 
-    flex-direction:row; 
-    gap:16px; 
+.three-footer-icons {
+ /*   border: orangered 3px solid;*/
+    height: 64px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
 }
 
-.facebook-icon{
-    border: green 3px solid; 
-    height:32px;   
-    width:32px; 
+.facebook-icon {
+  /*  border: green 3px solid;*/
+    height: 32px;
+    width: 32px;
 }
 
-.facebook-logo{
-width:32px; 
+.facebook-logo {
+    width: 32px;
 }
 
 .twitter-icon {
-    border:blue 3px solid; 
-    height:32px; 
-    width:32px; 
+ /*   border: blue 3px solid;*/
+    height: 32px;
+    width: 32px;
 
 }
 
-.twitter-logo{
-    width:32px; 
-}
-.instagram-icon{
-    border:purple 3px solid; 
-    height:32px; 
-    width:32px; 
-    
+.twitter-logo {
+    width: 32px;
 }
 
-.instagram-logo{
-    width:32px; 
+.instagram-icon {
+  /*  border: purple 3px solid;*/
+    height: 32px;
+    width: 32px;
+
 }
 
-.copyright-year-title{
-    border:turquoise 3px solid; 
-    height:56px; 
-    color:#ffffff;
-    font-family:'Montserrat';
-    font-size:13px; 
-    display:flex; 
+.instagram-logo {
+    width: 32px;
+}
+
+.copyright-year-title {
+    border-top: #ffffff 2px solid;
+    background-color: #223855;
+    height: 56px;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
